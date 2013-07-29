@@ -15,12 +15,11 @@
       };
       console.log(data);
       link = "" + baseUrl + ($.param(data));
-      code = "<a href=\"" + link + "\">\n  <img src=\"http://jpillora.com/github-twitter-button/img/tweet.png\"></img>\n</a>";
+      code = "<a href=\"" + link + "\" target=\"_blank\">\n  <img src=\"http://jpillora.com/github-twitter-button/img/tweet.png\"></img>\n</a>";
       $('pre.code').text(code);
       return $('.preview').html(code);
     };
     $(document).on('keyup', 'input', update);
-    $(document).on('click', 'button', update);
     return update();
   });
 

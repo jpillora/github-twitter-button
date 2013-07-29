@@ -12,14 +12,15 @@ body {
 .container {
   max-width: 1000px;
   padding-top: 20px;
+  padding-bottom: 60px;
 }
 
-/* line 9 : /Users/jpillora/Code/JavaScript/github-twitter-button/src/styles/app.styl */
+/* line 10 : /Users/jpillora/Code/JavaScript/github-twitter-button/src/styles/app.styl */
 .container > div {
   padding-top: 20px;
 }
 
-/* line 13 : /Users/jpillora/Code/JavaScript/github-twitter-button/src/styles/app.styl */
+/* line 14 : /Users/jpillora/Code/JavaScript/github-twitter-button/src/styles/app.styl */
 .container .buttons {
   text-align: center;
 }

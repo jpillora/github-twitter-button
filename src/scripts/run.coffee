@@ -17,7 +17,7 @@ $ ->
     link = "#{baseUrl}#{$.param data}"
 
     code = """
-      <a href="#{link}">
+      <a href="#{link}" target="_blank">
         <img src="http://jpillora.com/github-twitter-button/img/tweet.png"></img>
       </a>
     """
@@ -26,5 +26,4 @@ $ ->
     $('.preview').html code
 
   $(document).on 'keyup', 'input', update
-  $(document).on 'click', 'button', update
   update()
