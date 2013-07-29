@@ -1,0 +1,12 @@
+CACHE MANIFEST
+# Time: Mon Jul 29 2013 10:54:05 GMT+1000 (EST)
+
+CACHE:
+css/app.css
+js/app.js
+
+NETWORK:
+*
+
+SETTINGS:
+prefer-online
