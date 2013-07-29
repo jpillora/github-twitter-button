@@ -1,7 +1,34 @@
 !!!5
 html
   head
+    link(rel="stylesheet", href="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css")
     link(rel="stylesheet", href="/css/app.css")
   body
-    p hello world
+    .container
+      
+      .jumbotron
+        h1 Twitter Buttons for Github
+
+      .input-group
+        span.input-group-addon Text
+        input#text.form-control(type="text")
+
+      .input-group
+        span.input-group-addon URL
+        input#url.form-control(type="text")
+
+      .input-group
+        span.input-group-addon #tags
+        input#hashtags.form-control(type="text")
+    
+      .buttons
+        button.btn.btn-primary(type="button") Update
+
+      .output
+        | Paste into your README.md
+        pre.code
+        | and you should see
+        .preview
+
+    script(src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.js")
     script(src="/js/app.js")
