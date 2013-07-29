@@ -4,6 +4,10 @@ html
     link(rel="stylesheet", href="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css")
     link(rel="stylesheet", href="css/app.css")
   body
+
+    a(href="https://github.com/jpillora/github-twitter-button/")
+      img(style="position: absolute; top: 0; right: 0; border: 0;",src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png",alt="Fork me on GitHub")
+
     .container
       
       .jumbotron
@@ -27,5 +31,7 @@ html
         | and you should see
         .preview
 
-    script(src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.js")
+
+    script(src='//ajax.googleapis.com/ajax/libs/jquery/1/jquery#{min}.js')
+    //- script(src='//ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular#{min}.js')
     script(src="js/app.js")

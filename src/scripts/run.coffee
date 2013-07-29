@@ -1,6 +1,4 @@
 
-console.log 'run'
-
 $ ->
 
   baseUrl = 'https://twitter.com/intent/tweet?'
@@ -11,8 +9,6 @@ $ ->
       text: $('#text').val()
       tw_p: 'tweetbutton'
       url: $('#url').val()
-
-    console.log data
 
     link = "#{baseUrl}#{$.param data}"
 
